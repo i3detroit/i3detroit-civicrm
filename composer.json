@@ -15,6 +15,10 @@
         }
     ],
     "require": {
+        "civicrm/civicrm-asset-plugin": "~1.1",
+        "civicrm/civicrm-core": "~5.43",
+        "civicrm/civicrm-drupal-8": "~5.43",
+        "civicrm/civicrm-packages": "~5.43",
         "composer/installers": "^1.9",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-project-message": "^9.2",
@@ -23,7 +27,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "sort-packages": true
@@ -83,6 +87,7 @@
                 "  * Remove the plugin that prints this message:",
                 "      composer remove drupal/core-project-message"
             ]
-        }
+        },
+        "enable-patching": "true"
     }
 }

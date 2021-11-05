@@ -6,8 +6,17 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    $vendorDir . '/pear/pear_exception',
+    $vendorDir . '/pear/archive_tar',
     $vendorDir . '/pear/console_getopt',
     $vendorDir . '/pear/pear-core-minimal/src',
-    $vendorDir . '/pear/archive_tar',
+    $vendorDir . '/pear/pear_exception',
+    $vendorDir . '/pear/validate_finance_creditcard',
+    $vendorDir . '/pear/net_socket',
+    $vendorDir . '/pear/net_smtp',
+    $vendorDir . '/pear/mail_mime',
+    $vendorDir . '/pear/mail',
+    $vendorDir . '/pear/log',
+    $vendorDir . '/pear/db',
+    $vendorDir . '/pear/auth_sasl',
+    $vendorDir . '/civicrm/civicrm-core/vendor/tecnickcom',
 );
